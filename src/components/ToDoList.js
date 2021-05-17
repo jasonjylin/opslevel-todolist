@@ -48,7 +48,7 @@ export default function ToDoList() {
   //new task add
   const addNewTask = (e) => {
     e.preventDefault(); //no refresh on form submit
-    if (!priorityNumber || !taskName) {
+    if (!priorityNumber || !taskName || priorityNumber < 1) {
       //check for valid inputs (not empty)
       console.log("error");
     } else {
