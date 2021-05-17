@@ -1,0 +1,39 @@
+li {
+  color: #333;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 15px;
+  border-radius: 5px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  width: 90%;
+}
+
+.priorityNumber {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(85, 246, 252);
+  height: 100%;
+  width: 10%;
+}
+
+ul {
+  padding: 0;
+}
+
+.listBox {
+  border-radius: 5px;
+  margin: auto;
+  margin-bottom: 0.5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(85, 246, 252);
+  height: 100%;
+  width: 500px;
+}
+
+.line {
+  display: inline-block;
+}
